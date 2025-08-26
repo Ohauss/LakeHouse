@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lake House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&family=Merriweather:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/vars.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/history.css" />
+  </head>
+  <body>
+    <header class="page-header grid-container">
+      <div class="grid-content header-content">
+        <a href="index.html" class="logo-link" aria-label="Lake House homepage">
+          <svg
+            height="40"
+            width="87"
+            class="logo"
+            role="img"
+            aria-label="Lake House logo"
+          >
+            <title>Lake House</title>
+            <use href="./assets/icons/logo.svg#logo" />
+          </svg>
+        </a>
+
+        <ul class="main-nav" id="main-menu">
+          <li class="menu-item"><a href="#">Home</a></li>
+          <li class="menu-item"><a href="history.html">Our history</a></li>
+          <li class="menu-item"><a href="contacts.html">Contact us</a></li>
+          <li class="mobile-social">
+            <a href="#" aria-label="Facebook">
+              <svg width="24" height="24">
+                <use href="./assets/icons/fb.svg#icon"></use></svg
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><svg width="24" height="24">
+                <use href="./assets/icons/ig.svg#icon"></use></svg
+            ></a>
+            <a href="#" aria-label="Pinterest">
+              <svg width="24" height="24">
+                <use href="./assets/icons/pn.svg#icon"></use></svg
+            ></a>
+          </li>
+        </ul>
+        <button
+          class="btn-menu"
+          id="btn-menu"
+          type="button"
+          aria-label="Toggle menu"
+          aria-controls="main-menu"
+          aria-expanded="false"
+        >
+          <span class="lines"></span>
+          <span class="lines"></span>
+          <span class="lines"></span>
+        </button>
+        <div class="social">
+          <a href="https://facebook.com/yourpage" aria-label="Facebook">
+            <svg width="24" height="24" role="img">
+              <title>Facebook</title>
+              <use href="./assets/icons/fb.svg#icon"></use>
+            </svg>
+          </a>
+
+          <a href="https://instagram.com/yourpage" aria-label="Instagram">
+            <svg width="24" height="24" role="img">
+              <title>Instagram</title>
+              <use href="./assets/icons/ig.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="https://pinterest.com/yourpage" aria-label="Pinterest">
+            <svg width="24" height="24" role="img">
+              <title>Pinterest</title>
+              <use href="./assets/icons/pn.svg#icon"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section
+        class="grid-content-full hero-story"
+        id="our-story"
+        role="region"
+        aria-label="Lake House story"
+      >
+        <div class="grid-content">
+          <h1 class="heading-lg">Our Story</h1>
+          <p
+            class="heading-xs"
+            style="margin-top: var(--gap-md); max-width: var(--width-sm)"
+          >
+            A journey of passion, preservation, and creating meaningful
+            connections with nature.
+          </p>
+        </div>
+      </section>
+      <section
+        class="grid-container"
+        id="timeline"
+        role="region"
+        aria-label="Lake House timeline"
+      >
+        <div class="grid-content section-content">
+          <header class="section-header md">
+            <hr class="divider" aria-hidden="true" />
+            <h2 class="heading-sm">From Dream to Reality</h2>
+            <p class="body-lg">
+              Lake House began as a shared vision between two nature lovers who
+              dreamed of creating a sanctuary where modern comfort meets
+              pristine wilderness. Our journey spans over a decade of careful
+              planning, sustainable building, and deep respect for the natural
+              world.
+            </p>
+          </header>
+
+          <ol class="story-timeline" aria-label="Lake House milestones">
+            <li class="timeline-item" aria-labelledby="year-2012 title-2012">
+              <div class="timeline-year" id="year-2012">2012</div>
+              <div class="timeline-content">
+                <h3 id="title-2012">The Discovery</h3>
+                <p class="body-lg">
+                  Erik and Maja first discovered this hidden gem on the shores
+                  of a pristine Norwegian lake. The untouched forest,
+                  crystal-clear water, and abundant wildlife captured their
+                  hearts immediately. They spent months camping here, studying
+                  the ecosystem, and envisioning a retreat that would honor this
+                  sacred space.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item" aria-labelledby="year-2014 title-2014">
+              <div class="timeline-year" id="year-2014">2014</div>
+              <div class="timeline-content">
+                <h3 id="title-2014">Sustainable Planning</h3>
+                <p class="body-lg">
+                  Working with environmental architects and local
+                  conservationists, we developed plans that would integrate
+                  seamlessly with the existing landscape. Every tree was mapped,
+                  every animal path respected. Our commitment: not a single
+                  mature tree would be removed during construction.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item" aria-labelledby="year-2016 title-2016">
+              <div class="timeline-year" id="year-2016">2016</div>
+              <div class="timeline-content">
+                <h3 id="title-2016">Mindful Construction</h3>
+                <p class="body-lg">
+                  Construction began using locally sourced materials and
+                  traditional Norwegian building techniques. Solar panels were
+                  installed, rainwater collection systems put in place, and a
+                  state-of-the-art wastewater treatment system designed to
+                  protect the lake's pristine waters.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item" aria-labelledby="year-2018 title-2018">
+              <div class="timeline-year" id="year-2018">2018</div>
+              <div class="timeline-content">
+                <h3 id="title-2018">First Guests</h3>
+                <p class="body-lg">
+                  Lake House welcomed its first guests — a couple seeking
+                  respite from city life. Their tears of joy upon seeing the
+                  sunrise over the lake confirmed we had created something truly
+                  special. Word spread organically through heartfelt
+                  recommendations.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item" aria-labelledby="year-2024 title-2024">
+              <div class="timeline-year" id="year-2024">2024</div>
+              <div class="timeline-content">
+                <h3 id="title-2024">A Living Legacy</h3>
+                <p class="body-lg">
+                  Today, Lake House stands as a testament to sustainable
+                  hospitality. Our organic garden feeds guests and local
+                  wildlife alike. The forest has thrived, welcoming new species.
+                  We've hosted over 500 guests, each leaving with renewed
+                  connection to nature and themselves.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section
+        class="grid-content-full quote-section"
+        id="founders-quote"
+        role="region"
+        aria-label="Founders' quote"
+      >
+        <div class="grid-content">
+          <p class="quote">
+            "We wanted to create more than just accommodation. We dreamed of a
+            place where people could remember what it feels like to be truly
+            alive, surrounded by the wisdom and beauty of the natural world."
+          </p>
+          <p class="quote-author">— Erik &amp; Maja Andersen, Founders</p>
+        </div>
+      </section>
+      <section
+        class="grid-container"
+        id="core-values"
+        role="region"
+        aria-label="Lake House core values"
+      >
+        <div class="grid-content section-content">
+          <header class="section-header md">
+            <hr class="divider" aria-hidden="true" />
+            <h2 class="heading-sm">Our Core Values</h2>
+            <p class="body-lg">
+              Everything we do is guided by these fundamental principles that
+              shape our approach to hospitality and environmental stewardship.
+            </p>
+          </header>
+
+          <ul class="values-grid" role="list">
+            <li class="value-card" role="listitem">
+              <div class="value-icon" aria-hidden="true">🌲</div>
+              <h3>Environmental Stewardship</h3>
+              <p class="body-md">
+                We are guardians of this pristine ecosystem, committed to
+                leaving it healthier than we found it. Every decision considers
+                the impact on wildlife, water, and forest health.
+              </p>
+            </li>
+
+            <li class="value-card" role="listitem">
+              <div class="value-icon" aria-hidden="true">🤝</div>
+              <h3>Authentic Connection</h3>
+              <p class="body-md">
+                We foster genuine connections — between guests and nature,
+                guests and each other, and our community with the land we
+                cherish. Authenticity guides every interaction.
+              </p>
+            </li>
+
+            <li class="value-card" role="listitem">
+              <div class="value-icon" aria-hidden="true">♻️</div>
+              <h3>Sustainable Practices</h3>
+              <p class="body-md">
+                From renewable energy to zero-waste initiatives, we prove that
+                luxury and sustainability are perfect partners. Our operations
+                enhance rather than exploit the environment.
+              </p>
+            </li>
+
+            <li class="value-card" role="listitem">
+              <div class="value-icon" aria-hidden="true">🧘</div>
+              <h3>Mindful Hospitality</h3>
+              <p class="body-md">
+                We create spaces for reflection, restoration, and renewal. Our
+                hospitality honors the healing power of nature and the
+                importance of disconnecting to reconnect.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="grid-container tint"
+        id="team"
+        role="region"
+        aria-label="Lake House team"
+      >
+        <div class="grid-content section-content">
+          <header class="section-header md placement-center">
+            <hr class="divider" aria-hidden="true" />
+            <h2 class="heading-sm">Meet Our Team</h2>
+            <p class="body-lg align-center">
+              The passionate individuals who make Lake House a magical
+              experience for every guest.
+            </p>
+          </header>
+
+          <ul class="team-grid" role="list">
+            <li class="team-member" role="listitem">
+              <div class="team-photo">
+                <img
+                  src="assets/team-2.webp"
+                  width="120"
+                  height="160"
+                  loading="lazy"
+                  alt="Portrait of Erik Andersen, Co-Founder and Nature Guide"
+                />
+              </div>
+              <h3>Erik Andersen</h3>
+              <p class="team-role">Co-Founder & Nature Guide</p>
+              <p class="body-md">
+                Former environmental scientist turned hospitality visionary.
+                Erik leads our conservation efforts and guides guests on
+                transformative wilderness experiences.
+              </p>
+            </li>
+
+            <li class="team-member" role="listitem">
+              <div class="team-photo">
+                <img
+                  src="assets/team-1.webp"
+                  width="120"
+                  height="160"
+                  loading="lazy"
+                  alt="Portrait of Maja Andersen, Co-Founder and Experience Designer"
+                />
+              </div>
+              <h3>Maja Andersen</h3>
+              <p class="team-role">Co-Founder & Experience Designer</p>
+              <p class="body-md">
+                Interior designer specializing in biophilic spaces. Maja creates
+                environments that blur the lines between indoor comfort and
+                outdoor beauty.
+              </p>
+            </li>
+
+            <li class="team-member" role="listitem">
+              <div class="team-photo">
+                <img
+                  src="assets/team-4.webp"
+                  width="120"
+                  height="160"
+                  loading="lazy"
+                  alt="Portrait of Lars Eriksson, Culinary Director"
+                />
+              </div>
+              <h3>Lars Eriksson</h3>
+              <p class="team-role">Culinary Director</p>
+              <p class="body-md">
+                Master chef focused on hyperlocal ingredients. Lars transforms
+                foraged treasures and garden harvests into unforgettable
+                culinary journeys.
+              </p>
+            </li>
+
+            <li class="team-member" role="listitem">
+              <div class="team-photo">
+                <img
+                  src="assets/team-3.webp"
+                  width="120"
+                  height="160"
+                  loading="lazy"
+                  alt="Portrait of Astrid Holm, Sustainability Coordinator"
+                />
+              </div>
+              <h3>Astrid Holm</h3>
+              <p class="team-role">Sustainability Coordinator</p>
+              <p class="body-md">
+                Marine biologist ensuring our operations protect the lake
+                ecosystem. Astrid oversees our research partnerships and
+                conservation initiatives.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="grid-container"
+        id="call-to-action"
+        role="region"
+        aria-label="Reservation invitation"
+      >
+        <div class="grid-content section-content">
+          <div class="placement-center" style="text-align: center">
+            <h2 class="heading-sm" style="margin-bottom: var(--gap-md)">
+              Ready to Be Part of Our Story?
+            </h2>
+            <p
+              class="body-lg"
+              style="margin-bottom: var(--gap-lg); max-width: var(--width-sm)"
+            >
+              Join the hundreds of guests who have discovered renewal and
+              inspiration at Lake House. Your chapter in our story begins with a
+              single reservation.
+            </p>
+            <div
+              style="
+                display: flex;
+                gap: var(--gap-md);
+                justify-content: center;
+                flex-wrap: wrap;
+              "
+              role="group"
+              aria-label="Reservation options"
+            >
+              <button
+                class="btn outlined"
+                onclick="window.location.href='contacts.html'"
+              >
+                Learn More
+              </button>
+              <button class="btn solid call-to-action" onclick="bookNow()">
+                Reserve Your Stay
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="grid-container" aria-label="Lake House footer">
+      <div class="grid-content footer-content">
+        <ul class="contacts">
+          <li class="body-md">
+            <p class="caption gutter">Social media</p>
+            <div
+              class="social"
+              role="navigation"
+              aria-label="Social media links"
+            >
+              <a href="#" aria-label="Lake House on Facebook">
+                <svg width="24" height="24" aria-hidden="true">
+                  <use href="./assets/icons/fb.svg#icon"></use>
+                </svg>
+              </a>
+              <a href="#" aria-label="Lake House on Instagram">
+                <svg width="24" height="24" aria-hidden="true">
+                  <use href="./assets/icons/ig.svg#icon"></use>
+                </svg>
+              </a>
+              <a href="#" aria-label="Lake House on Pinterest">
+                <svg width="24" height="24" aria-hidden="true">
+                  <use href="./assets/icons/pn.svg#icon"></use>
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li>
+            <h2 class="body-md caption">Address</h2>
+            <address class="body-md">
+              Klubbvika 12, 8310 Kabelvag<br />
+              Lofoten Islands, Norway
+            </address>
+          </li>
+          <li>
+            <h2 class="body-md caption">Phone:</h2>
+            <p class="body-md">
+              <a href="tel:+470702881234" class="phone">+47 (0) 702 88 12 34</a>
+            </p>
+          </li>
+        </ul>
+        <form action="POST" aria-label="Newsletter subscription form">
+          <div class="form-header">
+            <h3 class="body-md caption">Newsletter</h3>
+            <p class="body-md">
+              Subscribe to receive updates about seasonal availability, special
+              offers, and nature photography from our pristine wilderness
+              location.
+            </p>
+          </div>
+
+          <div class="email-box">
+            <input type="text" class="input" placeholder="Email" />
+            <button class="btn solid small">Submit</button>
+          </div>
+        </form>
+        <div class="legal">
+          <svg height="40" width="91">
+            <use href="./assets/icons/logo.svg#logo" />
+          </svg>
+          <p class="body-md">
+            © Lake House, LLC. All rights reserved. Powered by Example Company
+          </p>
+          <p class="body-md">
+            +47 (0) 702 88 12 34 • stay@lakehouse.no • Klubbvika 12, 8310
+            Kabelvag, Lofoten Islands, Norway
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function bookNow() {
+        alert(
+          "Booking system would open here! For now, please call +47 (0) 702 88 12 34 to make a reservation."
+        );
+      }
+
+      // Smooth scrolling for internal links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Add entrance animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+          }
+        });
+      }, observerOptions);
+
+      // Animate timeline items, value cards, and team members
+      document
+        .querySelectorAll(".timeline-item, .value-card, .team-member")
+        .forEach((el) => {
+          el.style.opacity = "0";
+          el.style.transform = "translateY(30px)";
+          el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+          observer.observe(el);
+        });
+    </script>
+    <script src="./main.js"></script>
+  </body>
+</html>

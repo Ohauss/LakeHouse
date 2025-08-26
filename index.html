@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lake House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&family=Merriweather:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/vars.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header grid-container">
+      <div class="grid-content header-content">
+        <a href="index.html" class="logo-link" aria-label="Lake House homepage">
+          <svg
+            height="40"
+            width="87"
+            class="logo"
+            role="img"
+            aria-label="Lake House logo"
+          >
+            <title>Lake House</title>
+            <use href="./assets/icons/logo.svg#logo" />
+          </svg>
+        </a>
+
+        <ul class="main-nav" id="main-menu">
+          <li class="menu-item"><a href="#">Home</a></li>
+          <li class="menu-item"><a href="history.html">Our history</a></li>
+          <li class="menu-item"><a href="contacts.html">Contact us</a></li>
+          <li class="mobile-social">
+            <a href="#" aria-label="Facebook">
+              <svg width="24" height="24">
+                <use href="./assets/icons/fb.svg#icon"></use></svg
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><svg width="24" height="24">
+                <use href="./assets/icons/ig.svg#icon"></use></svg
+            ></a>
+            <a href="#" aria-label="Pinterest">
+              <svg width="24" height="24">
+                <use href="./assets/icons/pn.svg#icon"></use></svg
+            ></a>
+          </li>
+        </ul>
+        <button
+          class="btn-menu"
+          id="btn-menu"
+          type="button"
+          aria-label="Toggle menu"
+          aria-controls="main-menu"
+          aria-expanded="false"
+        >
+          <span class="lines"></span>
+          <span class="lines"></span>
+          <span class="lines"></span>
+        </button>
+        <div class="social">
+          <a href="https://facebook.com/yourpage" aria-label="Facebook">
+            <svg width="24" height="24" role="img">
+              <title>Facebook</title>
+              <use href="./assets/icons/fb.svg#icon"></use>
+            </svg>
+          </a>
+
+          <a href="https://instagram.com/yourpage" aria-label="Instagram">
+            <svg width="24" height="24" role="img">
+              <title>Instagram</title>
+              <use href="./assets/icons/ig.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="https://pinterest.com/yourpage" aria-label="Pinterest">
+            <svg width="24" height="24" role="img">
+              <title>Pinterest</title>
+              <use href="./assets/icons/pn.svg#icon"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="grid-container">
+      <section
+        class="grid-content-full grid-container hero cover"
+        id="home"
+        role="region"
+        aria-label="Hero section"
+      >
+        <div class="grid-content">
+          <h1 class="heading-md gutter">
+            Experience the perfect combination of modern housing & natural
+            scenery
+          </h1>
+          <button
+            class="btn solid call-to-action"
+            type="button"
+            aria-label="Book your stay at Lake House"
+          >
+            Book now
+          </button>
+        </div>
+      </section>
+      <section
+        class="grid-content-full grid-container tint"
+        id="about"
+        role="region"
+        aria-label="About Lake House"
+      >
+        <div class="grid-content section-content about-section">
+          <div class="about__image-wrapper">
+            <img
+              src="assets/lake.webp"
+              alt="Scenic lake view near Lake House spa hotel"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="about-description body-md">
+            <h2 class="gutter">About Lake House</h2>
+
+            <p class="gutter">
+              <strong>LAKE HOUSE</strong> is an authentic spa hotel nestled deep
+              in the forest. The dreamy landscape offers a peaceful escape from
+              the noisy world. Guests who’ve visited once often dream of
+              returning to its soothing, secluded atmosphere.
+            </p>
+
+            <p class="gutter">
+              Our design is fully integrated into the natural surroundings and
+              leaves no harm on the environment.
+            </p>
+
+            <p class="gutter">
+              We’re proud to say not a single tree was cut during construction.
+              Respect for nature is one of our core missions.
+            </p>
+
+            <p class="gutter">
+              Our hospitality goes beyond the standard “bed and board” approach.
+              The project is driven by clear goals:
+            </p>
+
+            <ul class="gutter">
+              <li>Environmental protection</li>
+              <li>Preservation of forests</li>
+              <li>Organic vegetable cultivation</li>
+            </ul>
+
+            <p class="gutter">
+              Our spaces are filled with natural light, warm wooden accents, and
+              soft furnishings. Every window opens to breathtaking lake and
+              forest views — designed to inspire, soothe, and reconnect you with
+              nature.
+            </p>
+          </div>
+
+          <hr class="divider" />
+        </div>
+      </section>
+      <section
+        class="grid-content section-content"
+        role="region"
+        aria-label="Weekend Getaway Highlight"
+      >
+        <div class="grid-content">
+          <h2 class="heading-lg align-center">
+            The Lake House is the perfect weekend getaway cabin
+          </h2>
+        </div>
+      </section>
+      <img
+        src="assets/interior.webp"
+        class="grid-content-full illustration"
+        loading="lazy"
+      />
+      <section
+        class="grid-content-full grid-container tint"
+        id="sleeping-arrangements"
+        role="region"
+        aria-label="Sleeping arrangements"
+      >
+        <div class="grid-content section-content">
+          <header class="section-header sm placement-center center">
+            <hr class="divider" />
+            <h2 class="heading-sm">Sleeping arrangements</h2>
+            <p class="body-lg">
+              Our thoughtfully designed accommodations blend rustic charm with
+              modern comfort, ensuring every guest enjoys a restful night's
+              sleep surrounded by nature's serenity.
+            </p>
+          </header>
+
+          <ul class="grid-list arrangements-list" role="list">
+            <li class="grid-list-item body-md" role="listitem">
+              <svg class="icon" aria-hidden="true">
+                <use href="./assets/icons/facilities.svg#icon"></use>
+              </svg>
+              <h3>Facilities</h3>
+              <p>
+                The cabin is equipped with dishes, fridge, coffee machine, and
+                microwave.
+              </p>
+            </li>
+
+            <li class="grid-list-item body-md" role="listitem">
+              <svg class="icon" aria-hidden="true">
+                <use href="./assets/icons/bedrooms.svg#icon"></use>
+              </svg>
+              <h3>Bedrooms</h3>
+              <p>
+                Spread across two floors, the cabin offers four bedrooms,
+                ranging from two to four beds per room.
+              </p>
+            </li>
+
+            <li class="grid-list-item body-md" role="listitem">
+              <svg class="icon" aria-hidden="true">
+                <use href="./assets/icons/bathrooms.svg#icon"></use>
+              </svg>
+              <h3>Bathrooms</h3>
+              <p>
+                The cabin includes three bathrooms, all with showers, and one
+                featuring a bathtub.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="grid-content section-content"
+        id="perfect-escape"
+        role="region"
+        aria-label="Retreat features"
+      >
+        <header class="section-header sm">
+          <hr class="divider" />
+          <h2 class="heading-sm">The perfect escape</h2>
+          <p class="body-lg">
+            Every detail has been carefully considered to provide you with an
+            unforgettable retreat experience, combining modern conveniences with
+            the timeless beauty of wilderness living.
+          </p>
+        </header>
+
+        <ul class="grid-list premises-list" role="list">
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/appliances.svg#icon"></use>
+            </svg>
+            <p class="body-md">Modern Kitchen Appliances</p>
+            <p class="body-md">
+              State-of-the-art appliances and cookware for culinary enthusiasts
+              who love preparing meals with local ingredients.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/air-conditioner.svg#icon"></use>
+            </svg>
+            <p class="body-md">Air Conditioner</p>
+            <p class="body-md">
+              Whisper-quiet heating and cooling systems maintain perfect comfort
+              year-round.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/outdoor-paths.svg#icon"></use>
+            </svg>
+            <p class="body-md">Outdoor Paths</p>
+            <p class="body-md">
+              Private walking paths wind through old-growth forest to hidden
+              lakeside meditation spots.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/storage.svg#icon"></use>
+            </svg>
+            <p class="body-md">Storage Solutions</p>
+            <p class="body-md">
+              Built-in storage solutions keep your space organized while
+              maintaining the clean, minimalist aesthetic.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/coffee-maker.svg#icon"></use>
+            </svg>
+            <p class="body-md">Coffee Maker</p>
+            <p class="body-md">
+              Premium espresso machine with locally roasted organic coffee
+              beans.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/cutlery.svg#icon"></use>
+            </svg>
+            <p class="body-md">Cutlery Selection</p>
+            <p class="body-md">
+              Complete collection of quality dinnerware, glassware, and serving
+              pieces for memorable meals.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/scenery.svg#icon"></use>
+            </svg>
+            <p class="body-md">Natural Scenery</p>
+            <p class="body-md">
+              Untouched natural surroundings with abundant wildlife viewing
+              opportunities.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/take-away.svg#icon"></use>
+            </svg>
+            <p class="body-md">Take-away Options</p>
+            <p class="body-md">
+              Curated selection of local artisan products and farm-fresh
+              ingredients available for delivery to your door.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="grid-content-full grid-container tint feedbacks-section"
+        id="guest-feedback"
+        role="region"
+        aria-label="Guest testimonials"
+      >
+        <div class="grid-content-full section-content">
+          <header class="section-header sm placement-center">
+            <hr class="divider" />
+            <h2 class="heading-sm">Past guests</h2>
+            <p class="body-lg align-center">
+              Don't take our word for it! Have a look at what our previous
+              guests say about their stay at the Guest House.
+            </p>
+          </header>
+
+          <div class="cards swiper" aria-label="Guest reviews carousel">
+            <div class="swiper-wrapper">
+              <div
+                class="card swiper-slide"
+                role="group"
+                aria-label="Review by Elena Kravets"
+              >
+                <p class="heading-xs">
+                  An unforgettable retreat at Lake House!
+                </p>
+                <p class="body-md">
+                  Our stay at Lake House was like a dream. Waking up to the
+                  misty lake, listening to birdsong, and feeling the serenity of
+                  nature was pure magic. The modern amenities blend perfectly
+                  with the surroundings. We’re already planning our next trip!
+                </p>
+                <p class="body-md feedback-author">Elena Kravets</p>
+              </div>
+
+              <div
+                class="card swiper-slide"
+                role="group"
+                aria-label="Review by Mykhailo Grynyshyn"
+              >
+                <p class="heading-xs">A perfect blend of luxury and nature!</p>
+                <p class="body-md">
+                  Lake House gave us the peace we desperately needed. The
+                  thoughtful design creates harmony between comfort and natural
+                  beauty. We spent hours on the terrace watching wildlife and
+                  rediscovered the joy of quiet evenings. Truly a gem!
+                </p>
+                <p class="body-md feedback-author">Mykhailo Grynyshyn</p>
+              </div>
+
+              <div
+                class="card swiper-slide"
+                role="group"
+                aria-label="Review by Sofia Levytska"
+              >
+                <p class="heading-xs">
+                  Eco-friendly paradise we’ll never forget!
+                </p>
+                <p class="body-md">
+                  As eco-conscious travelers, we were thrilled by Lake House’s
+                  commitment to sustainability. Solar panels, organic gardens,
+                  and zero-waste practices impressed us, while the comfort
+                  rivaled a five-star resort. An incredible experience!
+                </p>
+                <p class="body-md feedback-author">Sofia Levytska</p>
+              </div>
+
+              <div
+                class="card swiper-slide"
+                role="group"
+                aria-label="Review by Andriy Shevchuk"
+              >
+                <p class="heading-xs">A serene escape from everyday life!</p>
+                <p class="body-md">
+                  A week at Lake House felt like a soul reset. The quiet forest,
+                  cozy atmosphere, and ability to cook with local ingredients
+                  made our stay unforgettable. Highly recommend for anyone
+                  seeking tranquility!
+                </p>
+                <p class="body-md feedback-author">Andriy Shevchuk</p>
+              </div>
+
+              <div
+                class="card swiper-slide"
+                role="group"
+                aria-label="Review by Maria Petrenko"
+              >
+                <p class="heading-xs">The best family vacation we’ve had!</p>
+                <p class="body-md">
+                  Lake House was perfect for our family getaway. The kids loved
+                  exploring nature, while we enjoyed the comfort and thoughtful
+                  design. Every detail, from the kitchen to the bedrooms, made
+                  our trip special.
+                </p>
+                <p class="body-md feedback-author">Maria Petrenko</p>
+              </div>
+
+              <div
+                class="card swiper-slide"
+                role="group"
+                aria-label="Review by Viktor Romanenko"
+              >
+                <p class="heading-xs">
+                  A magical place to reconnect with nature!
+                </p>
+                <p class="body-md">
+                  Staying at Lake House was a complete immersion in nature
+                  without sacrificing comfort. We spent evenings by the
+                  fireplace, stargazing, and rediscovered the beauty of simple
+                  moments. We’ll definitely be back!
+                </p>
+                <p class="body-md feedback-author">Viktor Romanenko</p>
+              </div>
+            </div>
+
+            <div class="swiper-pagination" aria-hidden="true"></div>
+            <div class="swiper-button-prev" aria-label="Previous review"></div>
+            <div class="swiper-button-next" aria-label="Next review"></div>
+          </div>
+        </div>
+      </section>
+      <img
+        src="assets/fireplace.webp"
+        class="grid-content-full illustration"
+        alt="Cozy evening by the fireplace with warm lighting and forest view"
+        loading="lazy"
+        decoding="async"
+      />
+
+      <section
+        class="grid-content section-content benefits-section"
+        id="come-together"
+        role="region"
+        aria-label="Connection and comfort benefits"
+      >
+        <header class="section-header">
+          <hr class="divider" />
+          <h2 class="heading-sm">Come together</h2>
+          <p class="body-lg">
+            Lake House provides the perfect setting for meaningful connections —
+            whether with loved ones, nature, or your own inner peace.
+          </p>
+        </header>
+
+        <ul class="grid-list benefits-list" role="list">
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/wifi.svg#icon"></use>
+            </svg>
+            <p class="body-md">
+              Starlink high-speed internet when you need to stay connected to
+              the world.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/bread.svg#icon"></use>
+            </svg>
+            <p class="body-md">
+              Fresh artisanal breads and pastries delivered daily from local
+              bakeries.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/comfort.svg#icon"></use>
+            </svg>
+            <p class="body-md">
+              Thoughtfully curated comfort spaces for relaxation and
+              contemplation.
+            </p>
+          </li>
+
+          <li class="grid-list-item" role="listitem">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/wine.svg#icon"></use>
+            </svg>
+            <p class="body-md">
+              Curated wine selection featuring regional vineyards and organic
+              producers.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="grid-content-full grid-container tint"
+        id="booking-alert"
+        role="region"
+        aria-label="Booking urgency section"
+      >
+        <div class="grid-content section-content hurry-up-section">
+          <header class="section-header md placement-center">
+            <hr class="divider" />
+            <h2 class="heading-sm">
+              We're already booked up for the spring — hurry up & secure your
+              stay for the summer.
+            </h2>
+            <p class="body-lg">
+              Experience the transformative power of nature at Lake House, where
+              modern luxury meets pristine wilderness. Our calendar fills months
+              in advance, so don't wait to book your escape from the ordinary.
+            </p>
+          </header>
+
+          <div class="placement-center">
+            <button
+              class="btn outlined"
+              type="button"
+              onclick="window.location.href='contacts.html'"
+              aria-label="Contact Lake House team"
+            >
+              Contact us
+            </button>
+
+            <button
+              class="btn solid call-to-action"
+              type="button"
+              aria-label="Book your stay at Lake House"
+            >
+              Book now
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="grid-container" aria-label="Lake House footer">
+      <div class="grid-content footer-content">
+        <ul class="contacts">
+          <li class="body-md">
+            <p class="caption gutter">Social media</p>
+            <div
+              class="social"
+              role="navigation"
+              aria-label="Social media links"
+            >
+              <a href="#" aria-label="Lake House on Facebook">
+                <svg width="24" height="24" aria-hidden="true">
+                  <use href="./assets/icons/fb.svg#icon"></use>
+                </svg>
+              </a>
+              <a href="#" aria-label="Lake House on Instagram">
+                <svg width="24" height="24" aria-hidden="true">
+                  <use href="./assets/icons/ig.svg#icon"></use>
+                </svg>
+              </a>
+              <a href="#" aria-label="Lake House on Pinterest">
+                <svg width="24" height="24" aria-hidden="true">
+                  <use href="./assets/icons/pn.svg#icon"></use>
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li>
+            <h2 class="body-md caption">Address</h2>
+            <address class="body-md">
+              Klubbvika 12, 8310 Kabelvag<br />
+              Lofoten Islands, Norway
+            </address>
+          </li>
+          <li>
+            <h2 class="body-md caption">Phone:</h2>
+            <p class="body-md">
+              <a href="tel:+470702881234" class="phone">+47 (0) 702 88 12 34</a>
+            </p>
+          </li>
+        </ul>
+        <form action="POST" aria-label="Newsletter subscription form">
+          <div class="form-header">
+            <h3 class="body-md caption">Newsletter</h3>
+            <p class="body-md">
+              Subscribe to receive updates about seasonal availability, special
+              offers, and nature photography from our pristine wilderness
+              location.
+            </p>
+          </div>
+
+          <div class="email-box">
+            <input type="text" class="input" placeholder="Email" />
+            <button class="btn solid small">Submit</button>
+          </div>
+        </form>
+        <div class="legal">
+          <svg height="40" width="91">
+            <use href="./assets/icons/logo.svg#logo" />
+          </svg>
+          <p class="body-md">
+            © Lake House, LLC. All rights reserved. Powered by Example Company
+          </p>
+          <p class="body-md">
+            +47 (0) 702 88 12 34 • stay@lakehouse.no • Klubbvika 12, 8310
+            Kabelvag, Lofoten Islands, Norway
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

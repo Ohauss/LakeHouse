@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lake House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&family=Merriweather:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/vars.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contacts.css" />
+  </head>
+  <body>
+    <header class="page-header grid-container">
+      <div class="grid-content header-content">
+        <svg height="40" width="87" class="logo">
+          <use href="./assets/icons/logo.svg#logo" />
+        </svg>
+        <ul class="main-nav" id="main-menu">
+          <li class="menu-item"><a href="index.html">Home</a></li>
+          <li class="menu-item"><a href="history.html">Our history</a></li>
+          <li class="menu-item"><a href="#">Contact us</a></li>
+          <li class="mobile-social">
+            <a href="#" aria-label="Facebook">
+              <svg width="24" height="24">
+                <use href="./assets/icons/fb.svg#icon"></use></svg
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><svg width="24" height="24">
+                <use href="./assets/icons/ig.svg#icon"></use></svg
+            ></a>
+            <a href="#" aria-label="Pinterest">
+              <svg width="24" height="24">
+                <use href="./assets/icons/pn.svg#icon"></use></svg
+            ></a>
+          </li>
+        </ul>
+        <button class="btn-menu" id="btn-menu" type="button">
+          <span class="lines"></span>
+          <span class="lines"></span>
+          <span class="lines"></span>
+        </button>
+        <div class="social">
+          <a href="#" aria-label="Facebook">
+            <svg width="24" height="24">
+              <use href="./assets/icons/fb.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg width="24" height="24">
+              <use href="./assets/icons/ig.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <svg width="24" height="24">
+              <use href="./assets/icons/pn.svg#icon"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="grid-content-full hero-contact">
+        <div class="grid-content">
+          <h1 class="heading-lg">Get In Touch</h1>
+          <p
+            class="heading-xs"
+            style="margin-top: var(--gap-md); max-width: var(--width-sm)"
+          >
+            Ready to plan your perfect wilderness retreat? We're here to help
+            make your Lake House experience unforgettable.
+          </p>
+        </div>
+      </section>
+      <section class="grid-container">
+        <div class="grid-content section-content">
+          <header class="section-header md">
+            <hr class="divider" />
+            <h2 class="heading-sm">Contact Information</h2>
+            <p class="body-lg">
+              Whether you're planning a romantic getaway, family reunion, or
+              solo retreat, we're here to help you create the perfect Lake House
+              experience.
+            </p>
+          </header>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <svg height="24" width="24" class="icon">
+                    <use href="./assets/icons/icon-phone.svg" />
+                  </svg>
+                </div>
+                <h3>Phone</h3>
+                <p class="body-md">For immediate assistance and reservations</p>
+                <p class="body-lg">
+                  <a href="tel:+470702881234">+47 (0) 702 88 12 34</a>
+                </p>
+                <p
+                  class="body-md"
+                  style="
+                    color: var(--clr-grey-light);
+                    margin-top: var(--gap-xs);
+                  "
+                >
+                  Available daily: 9:00 AM - 8:00 PM CET
+                </p>
+              </div>
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <svg height="24" width="24" class="icon">
+                    <use href="./assets/icons/icon-email.svg" />
+                  </svg>
+                </div>
+                <h3>Email</h3>
+                <p class="body-md">
+                  For detailed inquiries and special requests
+                </p>
+                <p class="body-lg">
+                  <a href="mailto:stay@lakehouse.no">stay@lakehouse.no</a>
+                </p>
+                <p
+                  class="body-md"
+                  style="
+                    color: var(--clr-grey-light);
+                    margin-top: var(--gap-xs);
+                  "
+                >
+                  Response within 4-6 hours
+                </p>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <svg height="24" width="24" class="icon">
+                    <use href="./assets/icons/icon-location.svg" />
+                  </svg>
+                </div>
+                <h3>Location</h3>
+                <p class="body-md">Nestled in Norway's pristine wilderness</p>
+                <address class="body-lg" style="font-style: normal">
+                  Klubbvika 12<br />
+                  8310 Kabelvag<br />
+                  Lofoten Islands, Norway
+                </address>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-icon">🕒</div>
+                <h3>Business Hours</h3>
+                <p class="body-md">Our team is available to assist you</p>
+                <div class="body-lg">
+                  <p><strong>Monday - Friday:</strong> 9:00 AM - 8:00 PM</p>
+                  <p><strong>Weekends:</strong> 10:00 AM - 6:00 PM</p>
+                  <p><strong>Emergency:</strong> 24/7 on-site support</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <div class="success-message" id="successMessage">
+                Thank you! Your message has been sent. We'll respond within 4-6
+                hours.
+              </div>
+
+              <h3
+                style="
+                  font-family: Merriweather;
+                  font-size: 20px;
+                  margin-bottom: var(--gap-lg);
+                  color: var(--clr-brown-dark);
+                "
+              >
+                Send Us a Message
+              </h3>
+
+              <form id="contactForm">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="firstName">First Name *</label>
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" name="lastName" required />
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="inquiryType">Type of Inquiry</label>
+                  <select id="inquiryType" name="inquiryType">
+                    <option value="reservation">Reservation Inquiry</option>
+                    <option value="pricing">Pricing Information</option>
+                    <option value="special-event">
+                      Special Event/Group Booking
+                    </option>
+                    <option value="accessibility">
+                      Accessibility Questions
+                    </option>
+                    <option value="activities">Activities & Experiences</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="checkIn">Preferred Check-in</label>
+                    <input type="date" id="checkIn" name="checkIn" />
+                  </div>
+                  <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests">
+                      <option value="1">1 Guest</option>
+                      <option value="2">2 Guests</option>
+                      <option value="3">3 Guests</option>
+                      <option value="4">4 Guests</option>
+                      <option value="5">5 Guests</option>
+                      <option value="6">6 Guests</option>
+                      <option value="7+">7+ Guests</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Message *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tell us about your ideal Lake House experience..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn solid call-to-action"
+                  style="width: 100%"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-container">
+        <div class="grid-content">
+          <header class="section-header md">
+            <hr class="divider" />
+            <h2 class="heading-sm">Interactive Map</h2>
+            <p class="body-lg">Located in the heart of Lofoten Islands</p>
+            <p class="body-md" style="margin-top: var(--gap-sm)">
+              GPS Coordinates: 68.03521129818631, 13.345657605348324
+            </p>
+          </header>
+
+          <div class="map-section">
+            <div class="map-placeholder">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6354.669056276619!2d13.339944376687304!3d68.03624396039764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45de142d40745e41%3A0xf5ee8a913d97c8d4!2zODM4MCBOdXNmam9yZCwg0J3QvtGA0LLQtdCz0ZbRjw!5e1!3m2!1suk!2sua!4v1755261065303!5m2!1suk!2sua"
+                width="1440"
+                height="600"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-container">
+        <div class="grid-content">
+          <div class="quick-booking">
+            <h3>Ready to Book?</h3>
+            <p class="body-lg" style="margin-bottom: var(--gap-lg)">
+              Choose your preferred booking method for the fastest service
+            </p>
+            <div class="booking-options">
+              <div class="booking-option" onclick="callPhone()">
+                <h4>📞 Call Now</h4>
+                <p class="body-md">Speak directly with our team</p>
+              </div>
+              <div class="booking-option" onclick="sendEmail()">
+                <h4>✉️ Email Inquiry</h4>
+                <p class="body-md">Detailed booking assistance</p>
+              </div>
+              <div class="booking-option" onclick="openForm()">
+                <h4>📝 Online Form</h4>
+                <p class="body-md">Complete booking request</p>
+              </div>
+            </div>
+            <p class="body-md" style="margin-top: var(--gap-md); opacity: 0.9">
+              💡 Tip: Call for same-day availability or last-minute changes
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="grid-container tint">
+        <div class="grid-content section-content">
+          <header class="section-header md">
+            <hr class="divider" />
+            <h2 class="heading-sm">Frequently Asked Questions</h2>
+            <p class="body-lg">
+              Find quick answers to common questions about Lake House
+              reservations and experiences.
+            </p>
+          </header>
+          <div class="faq-section">
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFaq(this)">
+                <span>What's included in my Lake House stay?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p class="body-lg">
+                  Your stay includes full access to the cabin with premium
+                  linens, fully equipped kitchen, all utilities, WiFi, outdoor
+                  gear, hiking trail maps, and 24/7 on-site support. We also
+                  provide organic welcome amenities, access to our garden
+                  harvest (seasonal), and complimentary morning coffee service.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFaq(this)">
+                <span>How do I get to Lake House?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p class="body-lg">
+                  The closest airport is Leknes (30 minutes drive). We provide
+                  detailed driving directions upon booking. Car rental is
+                  recommended for exploring Lofoten. For guests arriving without
+                  vehicles, we can arrange pickup service for an additional fee.
+                  The final 2km is a scenic forest road suitable for all
+                  vehicles.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFaq(this)">
+                <span>What's your cancellation policy?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p class="body-lg">
+                  Free cancellation up to 14 days before check-in. Cancellations
+                  7-14 days prior receive 50% refund. Within 7 days, bookings
+                  are non-refundable unless due to extreme weather or
+                  emergencies. We offer flexible rescheduling options and travel
+                  insurance recommendations for peace of mind.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFaq(this)">
+                <span>Is Lake House suitable for families with children?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p class="body-lg">
+                  Absolutely! We welcome families and provide child-safe
+                  amenities, outdoor games, nature exploration kits, and
+                  family-friendly hiking suggestions. The property is secure
+                  with clear boundaries. We can arrange babysitting services and
+                  have partnerships with local family activity providers.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFaq(this)">
+                <span>What activities are available nearby?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p class="body-lg">
+                  Hiking, kayaking, fishing, Northern Lights viewing (winter),
+                  midnight sun experiences (summer), wildlife photography,
+                  foraging tours, traditional Norwegian cooking classes, yoga
+                  sessions, and guided meditation walks. We curate seasonal
+                  activity packages and work with local experts for unique
+                  experiences.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFaq(this)">
+                <span>Do you accommodate dietary restrictions?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p class="body-lg">
+                  Yes! Please inform us of any dietary needs when booking. We
+                  can pre-stock organic, vegan, gluten-free, or other specialty
+                  items. Our garden provides fresh herbs and vegetables. We
+                  partner with local organic producers and can arrange for
+                  specialty deliveries during your stay.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="grid-container">
+      <div class="grid-content footer-content">
+        <ul class="contacts">
+          <li class="body-md">
+            <p class="caption gutter">Social media</p>
+            <div class="social">
+              <a href="#">
+                <svg width="24" height="24">
+                  <use href="./assets/icons/fb.svg#icon"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="24" height="24">
+                  <use href="./assets/icons/ig.svg#icon"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="24" height="24">
+                  <use href="./assets/icons/pn.svg#icon"></use>
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li>
+            <h2 class="body-md caption">Address</h2>
+            <address class="body-md">
+              Klubbvika 12, 8310 Kabelvag<br />
+              Lofoten Islands, Norway
+            </address>
+          </li>
+          <li>
+            <h2 class="body-md caption">Phone:</h2>
+            <p class="body-md">
+              <a href="tel:+470702881234" class="phone">+47 (0) 702 88 12 34</a>
+            </p>
+          </li>
+        </ul>
+        <form action="POST">
+          <div class="form-header">
+            <h3 class="body-md caption">Newsletter</h3>
+            <p class="body-md">
+              Subscribe to receive updates about seasonal availability, special
+              offers, and nature photography from our pristine wilderness
+              location.
+            </p>
+          </div>
+          <div class="email-box">
+            <input type="text" class="input" placeholder="Email" />
+            <button class="btn solid small">Submit</button>
+          </div>
+        </form>
+        <div class="legal">
+          <svg height="40" width="91">
+            <use href="./assets/icons/logo.svg#logo" />
+          </svg>
+          <p class="body-md">
+            © Lake House, LLC. All rights reserved. Powered by Example Company
+          </p>
+          <p class="body-md">
+            +47 (0) 702 88 12 34 • stay@lakehouse.no • Klubbvika 12, 8310
+            Kabelvag, Lofoten Islands, Norway
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Form submission
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Show success message
+          document.getElementById("successMessage").style.display = "block";
+
+          // Reset form
+          this.reset();
+
+          // Scroll to success message
+          document.getElementById("successMessage").scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+
+          // Hide success message after 5 seconds
+          setTimeout(() => {
+            document.getElementById("successMessage").style.display = "none";
+          }, 5000);
+        });
+
+      // FAQ toggle functionality
+      function toggleFaq(element) {
+        const answer = element.nextElementSibling;
+        const toggle = element.querySelector(".faq-toggle");
+
+        // Close all other FAQs
+        document.querySelectorAll(".faq-question").forEach((q) => {
+          if (q !== element) {
+            q.classList.remove("active");
+            q.nextElementSibling.classList.remove("active");
+            q.querySelector(".faq-toggle").textContent = "+";
+          }
+        });
+
+        // Toggle current FAQ
+        element.classList.toggle("active");
+        answer.classList.toggle("active");
+        toggle.textContent = element.classList.contains("active") ? "×" : "+";
+      }
+
+      // Quick booking functions
+      function callPhone() {
+        window.location.href = "tel:+470702881234";
+      }
+
+      function sendEmail() {
+        window.location.href =
+          "mailto:stay@lakehouse.no?subject=Lake House Booking Inquiry&body=Hello! I would like to inquire about booking Lake House. Please provide availability and pricing information.";
+      }
+
+      function openForm() {
+        document.getElementById("contactForm").scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+        document.getElementById("firstName").focus();
+      }
+
+      // Set minimum date to today for check-in field
+      document.getElementById("checkIn").min = new Date()
+        .toISOString()
+        .split("T")[0];
+
+      // Auto-update inquiry type based on dates
+      document
+        .getElementById("checkIn")
+        .addEventListener("change", function () {
+          if (this.value) {
+            document.getElementById("inquiryType").value = "reservation";
+          }
+        });
+
+      // Add smooth animations on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+          }
+        });
+      }, observerOptions);
+
+      // Animate contact methods and FAQ items
+      document.querySelectorAll(".contact-method, .faq-item").forEach((el) => {
+        el.style.opacity = "0";
+        el.style.transform = "translateY(30px)";
+        el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+        observer.observe(el);
+      });
+    </script>
+    <script src="./main.js"></script>
+  </body>
+</html>
